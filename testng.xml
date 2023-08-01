@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="api.utilities.ExtentReportmanager"></listener>
+	</listeners>
+	<test thread-count="5" name="Employee Api Dummy Test">
+		<classes>
+			<class name="api.test.DDrTest2" />
+		</classes>
+	</test> <!-- Employee_Api_Dummy_Test -->
+</suite> <!-- Suite -->
