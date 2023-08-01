@@ -46,9 +46,8 @@ public class TestpageObj {
     public static void loadProperties() {
         properties = new Properties();
         try {
-            FileInputStream employeeFile = new FileInputStream("C:\\Users\\Joshua.Onyena\\Downloads\\EclipeWorkspace2\\TRAP\\src\\test\\resources\\Employee.properties");
-            FileInputStream statusCodeFile = new FileInputStream("C:\\Users\\Joshua.Onyena\\Downloads\\EclipeWorkspace2\\TRAP\\src\\test\\resources\\Statuscode.properties");
-
+            FileInputStream employeeFile = new FileInputStream("loctaion");
+            FileInputStream statusCodeFile = new FileInputStream("");
             properties.load(employeeFile);
             properties.load(statusCodeFile);
 
